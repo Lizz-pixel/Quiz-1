@@ -1,0 +1,83 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url("https://zefirka.club/uploads/posts/2022-11/1669774423_1-zefirka-club-p-fon-dlya-uchitelya-matematiki-1.jpg") no-repeat center center/cover;
+}
+
+.quiz-container {
+  width: 90%;
+  max-width: 700px;
+  background-color: #8fbff6;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#timer {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #3700ff;
+}
+
+button {
+  width: 45%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 10px;
+  background: linear-gradient(to bottom, #68aeff, #a0cdff, #b9d9ff);
+  border: none;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #b9d9ff, #a0cdff, #68aeff);
+}
+
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close-btn {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  border: 1px solid #5aa7ff;
+  background: linear-gradient(to bottom, #b9d9ff, #a0cdff, #58a4fb);
+  width: 100px;
+  border-radius: 25px;
+  margin: 0 10px 0 10px;
+  padding: 6px;
+}
+
